@@ -6,7 +6,7 @@ The machine learning algorithms used were:
 - RandomOverSampler
 - SMOTE
 - ClusterCentroids
-- SMOTEENN
+- SMOTEENN Algorithms
 - BalancedRandomForestClassifier
 - EasyEnsembleClassifier
 
@@ -15,6 +15,43 @@ The machine learning algorithms used were:
 Followings are the results for the six machine learning models, including their respective balanced accuracy, precision, and recall scores
 
 ### Naive Random Oversampling
+
+![naive](https://user-images.githubusercontent.com/66500222/185774403-9c8f9b81-a010-492b-9881-1b0920da3485.png)
+
+- Balanced Accuracy: 0.6515938052705158
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = 0.62/0.68
+
+### SMOTE Oversampling
+
+- Balanced Accuracy: 
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .62/.64
+
+### Undersampling
+
+- Balanced Accuracy: 
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .63/.40
+
+
+### Combination Under-Over Sampling
+
+- Balanced Accuracy:
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .70/.57
+
+### Balanced Random Forest Classifier
+
+- Balanced Accuracy: 
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .67/.91
+
+### Easy Ensemble AdaBoost Classifier
+
+- Balanced Accuracy:
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .91/.94
 
 ## Summary
 
