@@ -58,8 +58,9 @@ Followings are the results for the six machine learning models, including their 
 
 ### Easy Ensemble AdaBoost Classifier
 
+![easy](https://user-images.githubusercontent.com/66500222/185814858-0a514e11-9010-48a2-a4dc-70e29e82563f.png)
 
-- Balanced Accuracy:
+- Balanced Accuracy: 0.925427358175101
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall: High/Low risk = 0.91/0.62
 
