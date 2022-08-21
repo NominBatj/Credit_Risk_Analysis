@@ -20,26 +20,32 @@ Followings are the results for the six machine learning models, including their 
 
 - Balanced Accuracy: 0.6515938052705158
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall: High/Low risk = 0.62/0.68
+- Recall: High/Low risk = 0.68/0.81
 
 ### SMOTE Oversampling
 
-- Balanced Accuracy: 
+![smote](https://user-images.githubusercontent.com/66500222/185774460-0bf50642-d5c8-4ada-b30c-8567e5df856b.png)
+
+- Balanced Accuracy: 0.6241876870888075
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall: High/Low risk = .62/.64
+- Recall: High/Low risk = 0.66/0.80
 
 ### Undersampling
 
-- Balanced Accuracy: 
+![undersampling](https://user-images.githubusercontent.com/66500222/185774496-e1d3420f-c311-4402-854e-9b70ba643c79.png)
+
+- Balanced Accuracy: 0.5159904274991842
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall: High/Low risk = .63/.40
+- Recall: High/Low risk = 0.60/0.60
 
 
 ### Combination Under-Over Sampling
 
-- Balanced Accuracy:
+![combination](https://user-images.githubusercontent.com/66500222/185774554-d6cdc8c4-6dfb-42b4-a9f2-863c14bbede0.png)
+
+- Balanced Accuracy: 0.6218026195454673
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall: High/Low risk = .70/.57
+- Recall: High/Low risk = 0.71/0.69
 
 ### Balanced Random Forest Classifier
 
